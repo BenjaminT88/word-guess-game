@@ -70,6 +70,7 @@ function keyPressed(event){
             document.querySelector("#lettersGuessed").innerText = wrongLetters;
             document.querySelector('#numGuess').innerText = numOfGuess;
             document.querySelector('#numWin').innerText = wins;
+            document.querySelector("#gameImage").src = "assets/images/" + wordPlaying + ".png";
         }, 300);
     }
 
@@ -90,6 +91,7 @@ function keyPressed(event){
             numOfGuess = 10;
             document.querySelector("#lettersGuessed").innerText = wrongLetters;
             document.querySelector('#numGuess').innerText = numOfGuess;
+            document.querySelector("#gameImage").src = "assets/images/" + wordPlaying + ".png";
         }, 1000);
     }
 }
