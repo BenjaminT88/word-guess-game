@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Hangman Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Jua|Wallpoet" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="gameTitle">Hangman Game</h1>
+    <h1 class="gameTitle">Financial Terms</h1>
+    <div class="container">
+        <div id="boxLeft">
+            <p class="gameText">Definition of Term</p>
+            <img src="" alt="Current_Word" id="gameImage">
+        </div>
+        <div id="boxRight">
+            <p class="gameText">Press Any Key to Start!</p>
+            <br>
+            <p id="numWin"></p>
+            <p class="gameText">Wins</p>
+            <br>
+            <p class="gameText">Current Word</p>
+            <br>
+            <p id="currentWord"></p>
+            <br>
+            <p class="gameText">Number of Guesses Remaining</p>
+            <br>
+            <p id="numGuess"></p>
+            <br>
+            <p class="gameText">Letters Already Guessed</p>
+            <br>
+            <p id="lettersGuessed"></p>
+        </div>    
+    </div>
+    <audio src="../word-guess-game/assets/sounds/win.wav" id="winAudio"></audio>
+    <audio src="../word-guess-game/assets/sounds/gameOver.wav" id="loseAudio"></audio>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>

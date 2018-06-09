@@ -1,0 +1,45 @@
+body {
+    background-image: url(../images/background-image.jpg);
+    background-repeat: repeat;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: 'Jua', sans-serif;
+}
+
+.gameTitle {
+    font-family: 'Wallpoet', cursive;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 55px;
+    color: white;
+}
+.container {
+    width: 100%;
+    overflow: auto;
+}
+
+#boxLeft, #boxRight {
+    float: left;
+    margin: auto;
+    width: calc(50% - 6px);
+    min-height: 650px;
+    border: 3px dashed white;
+}
+
+.gameText {
+    padding-top: 15px;
+}
+
+#gameImage {
+    padding-top: 50px;
+    max-width: 100%;
+}
+
+#currentWord, #lettersGuessed, #currentWord{
+    letter-spacing: 20px;
+    padding-top: 10px;
+}
